@@ -20,9 +20,9 @@ documentation could only be found in the form of code.
 
 This project has no timeline, as this is just a hobby for me and I
 don't personally use Twine very frequently, but if you notice
-something wrong or out-of-date please open up an Issue or, even
-better, a Pull Request. As this is a documentation only project, it's
-very simple on GitHub to open a Pull Request using only the web
+something wrong or out-of-date please open up an issue or, even
+better, a pull request. As this is a documentation only project, it's
+very simple on GitHub to open a pull request using only the web
 interface, simply by hitting the pencil icon at the top right corner
 of a file, so any contributions are very appreciated.
 
