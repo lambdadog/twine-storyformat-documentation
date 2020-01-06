@@ -40,6 +40,7 @@ of a file, so any contributions are very appreciated.
       - [[part1-documentation/03-parsing-story-data.org#introduction][Introduction]]
       - [[part1-documentation/03-parsing-story-data.org#a-real-world-example][A real world example]]
       - [[part1-documentation/03-parsing-story-data.org#structure-of-the-custom-elements][Structure of the custom elements]]
+      - [[part1-documentation/03-parsing-story-data.org#a-note-on-parsing-passage-text][A note on parsing passage text]]
    4. Packaging Your Story Format
  + Part 2: Cookbook
    1. TODO

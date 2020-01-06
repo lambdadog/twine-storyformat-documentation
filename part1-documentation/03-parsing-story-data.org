@@ -115,3 +115,18 @@ from the exported HTML.
 
    - content
      + The unmodified text of the passage.
+
+* A note on parsing passage text
+
+Astute readers may notice that the ~<tw-passagedata>~ element contains
+the "unmodified" text of the passage. What this indicates is that the
+text is completely unparsed, unformatted, etc.
+
+Indeed the editor does no processing of the passage text before
+exporting the data, which means that it is up to you, the author of
+the story format, to parse the passage text before displaying it. For
+a drag and drop solution there are a number of [[https://marked.js.org][markdown]] [[http://showdownjs.com/][parsers]]
+[[https://markdown-it.github.io/][available]], but you can also roll your own parser if desired.
+
+(note that you will have to handle the link-to-passage logic for the
+markdown parsers I've linked yourself)
