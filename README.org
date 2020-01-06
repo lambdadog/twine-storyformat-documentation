@@ -33,7 +33,7 @@ of a file, so any contributions are very appreciated.
       - [[part1-documentation/01-introduction.org#what-is-twine][What is Twine?]]
       - [[part1-documentation/01-introduction.org#what-is-a-story-format][What is a story format?]]
       - [[part1-documentation/01-introduction.org#what-is-the-difference-between-a-story-format-and-a-proofing-format][What is the difference between a story format and a proofing format?]]
-   2. The Story Data Format
+   2. [[part1-documentation/02-the-story-data-format.org#the-story-data-format][The Story Data Format]]
    3. Making Your Story Format Importable
  + Part 2: Cookbook
    1. TODO
