@@ -32,8 +32,7 @@ of a file, so any contributions are very appreciated.
    1. [[chapter/01-introduction.org][Introduction]]
       - [[chapter/01-introduction.org#what-is-twine][What is Twine?]]
       - [[chapter/01-introduction.org#what-is-a-story-format][What is a story format?]]
-      - [[chapter/01-introduction.org#what-is-the-difference-between-a-story-format-and-a-proofing-format][What is the difference between a story format and a proofing
-      format?]]
+      - [[chapter/01-introduction.org#what-is-the-difference-between-a-story-format-and-a-proofing-format][What is the difference between a story format and a proofing format?]]
    2. The Story Data Format
    3. Making Your Story Format Importable
  + Part 2: Cookbook
