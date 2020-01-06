@@ -1,0 +1,45 @@
+#+TITLE:       Twine 2 Story and Proofing Format Documentation
+#+AUTHOR:      Ashlynn Anderson
+#+EMAIL:       ashlynn@pea.sh
+#+DATE:        2020-01-05
+#+LANGUAGE:    en
+
+ | Status: | Completed |
+
+* What is Twine?
+
+[[https://twinery.org][Twine]] is a Free and Open Source interactive fiction editor and
+publishing tool originally created by [[https://chrisklimas.com][Chris Klimas]] in 2009 and
+currently maintained by an active community of volunteers.
+
+* What is a story format?
+
+You may notice that while I said Twine is an editor and publishing
+tool, I did not say that Twine is an interactive fiction
+*engine*. That's where story formats come in. Twine is a tool capable
+of publishing into an HTML file (using a template provided by the
+story format), and the story format takes it from there to turn that
+raw data into a beautiful, interactive story.
+
+Twine gives story formats all of the power afforded by being a
+full-fledged web application, but at the same time this affords
+authors all of the difficulties of writing a full-fledged web
+application as well. While this documentation will attempt to show
+best practices when possible, writing a web application is a difficult
+project and tackling these difficulties (such as browser
+compatibility, performance, etc.) will be left to the reader.
+
+* What is the difference between a story format and a proofing format?
+
+In short, nothing. Proofing formats use all of the same conventions as
+story formats, are afforded the same power, and must tackle all of the
+same problems. The difference is in the semantics. A proofing format
+is not intended to be used for publishing, instead it is a tool for
+the author to use, whether it's for exporting into a different
+interactive fiction editor's format or analyzing the story's
+grammatical correctness and word count, etc.
+
+As a result, this documentation will not specifically cover proofing
+formats except as a side note. Given that they use the same
+conventions however, I expect this documentation to be similarly
+useful for those interested in writing either type of export format. 
