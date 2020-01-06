@@ -21,15 +21,15 @@ This chapter will go over the structure of these custom elements.
 
  + ~<tw-storydata>~
    - attributes
-     | name            |   |
-     | startnode       |   |
-     | creator         |   |
-     | creator-version |   |
-     | ifid            |   |
-     | zoom            |   |
-     | format          |   |
-     | format-version  |   |
-     | options         |   |
+     | name            | the name of the fiction                   |
+     | startnode       | the id of the start node                  |
+     | creator         | editor that was used to publish the story |
+     | creator-version | editor's version                          |
+     | ifid            | unique "interactive fiction ID" for IFDB  |
+     | zoom            | stored editor zoom data                   |
+     | format          | story format name                         |
+     | format-version  | story format version                      |
+     | options         |                                           |
    - content
      + A ~<style>~ element containing the story's custom CSS with the
        attributes:
@@ -46,16 +46,16 @@ This chapter will go over the structure of these custom elements.
        passages 
  + ~<tw-tag>~
    - attributes
-     | name  |   |
-     | color |   |
+     | name  | the name of the tag |
+     | color | the color of the tag |
    - content
      + n/a
  + ~<tw-passagedata>~
    - attributes
-     | pid      |   |
-     | name     |   |
-     | tags     |   |
-     | position |   |
-     | size     |   |
+     | pid      | each passage is exported with a unique, sequential numeric id |
+     | name     | the name of the passage                                       |
+     | tags     | a list of tags for the passage, separated by spaces           |
+     | position | editor metadata                                               |
+     | size     | editor metadata                                               |
    - content
      + The unmodified text of the passage.
