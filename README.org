@@ -29,3 +29,8 @@ of a file, so any contributions are very appreciated.
 * Table of Contents
 
 TODO
+
+* License
+
+This documentation is released under [[https://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA 4.0]]. For the full terms
+of the CC-BY-SA 4.0 license, see the [[LICENSE]] file.
