@@ -37,10 +37,6 @@ requirements:
 
 While part 1 of this documentation will not cover how to achieve the
 first of these requirements as there are many different tools that
-will allow you to publish in this format[fn:1], the next chapter,
-[[03-parsing-story-data.org#parsing-story-data][Parsing Story Data]] will cover the story data format and techniques for
-reading it from javascript.
-
------
-[fn:1] The attached cookbook may cover some methods however, depending
-on the current state of this documentation at your time of reading.
+will allow you to publish in this format, the next chapter, [[03-parsing-story-data.org#parsing-story-data][Parsing
+Story Data]] will cover the story data format and techniques for reading
+it from javascript.
