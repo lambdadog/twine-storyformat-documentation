@@ -37,6 +37,9 @@ of a file, so any contributions are very appreciated.
       - [[part1-documentation/02-structure-of-a-story-format.org#introduction][Introduction]]
       - [[part1-documentation/02-structure-of-a-story-format#the-composition-of-the-story-format][The composition of the story format]]
    3. [[part1-documentation/03-parsing-story-data.org#parsing-story-data][Parsing Story Data]]
+      - [[part1-documentation/03-parsing-story-data.org#introduction][Introduction]]
+      - [[part1-documentation/03-parsing-story-data.org#a-real-world-example][A real world example]]
+      - [[part1-documentation/03-parsing-story-data.org#structure-of-the-custom-elements][Structure of the custom elements]]
    4. Packaging Your Story Format
  + Part 2: Cookbook
    1. TODO

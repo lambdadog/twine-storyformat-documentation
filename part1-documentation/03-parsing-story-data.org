@@ -4,9 +4,9 @@
 #+DATE:        2020-01-05
 #+LANGUAGE:    en
 
- | Status: | In-Progress |
+ | Status: | Complete |
 
-* Overview
+* Introduction
 
 When publishing, Twine publishes the story data (including passages,
 name, tags, CSS, custom javascript, etc) directly into your exported
@@ -17,7 +17,61 @@ respectively).
 
 This chapter will go over the structure of these custom elements.
 
-* Custom Elements
+* A real world example
+
+Created by opening up the twine editor and creating a new project with
+some minor modifications then extracting the ~<tw-storydata>~ element
+from the exported HTML.
+
+#+BEGIN_SRC html
+<tw-storydata 
+  name="test"
+  startnode="1"
+  creator="Twine"
+  creator-version="2.3.5"
+  ifid="A580D8E9-E1BF-4C8E-A490-8D46170010B9"
+  zoom="1"
+  format="SugarCube"
+  format-version="1.0.35"
+  options=""
+  hidden
+>
+
+    <!-- Custom Stylesheet -->
+    <style
+      role="stylesheet"
+      id="twine-user-stylesheet"
+      type="text/twine-css"
+    ></style>
+    
+    <!-- Custom Javascript -->
+    <script 
+      role="script"
+      id="twine-user-script"
+      type="text/twine-javascript"
+    ></script>
+    
+    <!-- Tag -->
+    <tw-tag
+      name="test-tag"
+      color="red"
+    ></tw-tag>
+
+    <!-- Passage -->
+    <tw-passagedata 
+      pid="1"
+      name="Untitled Passage"
+      tags="test-tag test-tag-2"
+      position="420.5,287.5"
+      size="100,100"
+    >
+        Double-click this passage to edit it.
+    </tw-passagedata>
+
+</tw-storydata>
+#+END_SRC
+
+* Structure of the custom elements
 
  + ~<tw-storydata>~
    | name            | the name of the fiction                   |
@@ -44,9 +98,14 @@ This chapter will go over the structure of these custom elements.
      + many ~<tw-tag>~ elements, one for each of the story's tags
      + many ~<tw-passagedata>~ elements, one for each of the story's
        passages 
+
  + ~<tw-tag>~
    | name  | the name of the tag  |
    | color | the color of the tag |
+
+   - notes
+     + only created if the tag has a color set
+
  + ~<tw-passagedata>~
    | pid      | each passage is exported with a unique, sequential numeric id |
    | name     | the name of the passage                                       |
