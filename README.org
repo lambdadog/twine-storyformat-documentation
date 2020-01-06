@@ -6,7 +6,7 @@
 
  | Status:   | In-Progress                                                     |
  | Location: | [[https://github.com/transitracer/twine-storyformat-documentation]] |
- | Version:  | 0.1.0                                                           |
+ | Version:  | 0.2.0                                                           |
 
 * Motivation
 
