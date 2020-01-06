@@ -4,6 +4,43 @@
 #+DATE:        2020-01-05
 #+LANGUAGE:    en
 
- | Status: | In-Progress |
+ | Status: | Completed |
 
+* Introduction
 
+A Twine story format is, simply, a single-page web application. This
+chapter will go over the specifics of this format. Some familiarity
+with basic web development concepts are expected, this documentation
+does not intend to serve as an introduction to web development -- you
+will find there are many of such guides on the internet and if you
+have no familiarity with web development I recommend you read one.
+
+* The composition of the story format
+
+While a story format may be built any way you wish with a wide variety
+of toolchains, there is one fundamental requirement that must be
+fulfilled to allow your story format to be used by Twine: the final
+result of whatever process you use to build your format must produce a
+single HTML webpage.
+
+Additionally, to be an actual useful story format, it must fulfill two
+requirements: 
+
+ 1. The HTML webpage must contain the placeholder ~{{STORY_DATA}}~
+    (and optionally ~{{STORY_NAME}}~) so Twine will know where to
+    insert the story data (and optionally name) into the page.
+
+ 2. The HTML webpage must contain a (typically) javascript program
+    that will process the data that Twine inserts into the page and
+    present it to the user (or author, in the case of a proofing
+    format) in a useful manner.
+
+While part 1 of this documentation will not cover how to achieve the
+first of these requirements as there are many different tools that
+will allow you to publish in this format[fn:1], the next chapter,
+[[03-parsing-story-data.org#parsing-story-data][Parsing Story Data]] will cover the story data format and techniques for
+reading it from javascript.
+
+-----
+[fn:1] The attached cookbook may cover some methods however, depending
+on the current state of this documentation at your time of reading.

@@ -34,6 +34,8 @@ of a file, so any contributions are very appreciated.
       - [[part1-documentation/01-introduction.org#what-is-a-story-format][What is a story format?]]
       - [[part1-documentation/01-introduction.org#what-is-the-difference-between-a-story-format-and-a-proofing-format][What is the difference between a story format and a proofing format?]]
    2. [[part1-documentation/02-structure-of-a-story-format.org#structure-of-a-story-format][Structure of a Story Format]]
+      - [[part1-documentation/02-structure-of-a-story-format.org#introduction][Introduction]]
+      - [[part1-documentation/02-structure-of-a-story-format#the-composition-of-the-story-format][The composition of the story format]]
    3. [[part1-documentation/03-parsing-story-data.org#parsing-story-data][Parsing Story Data]]
    4. Packaging Your Story Format
  + Part 2: Cookbook
