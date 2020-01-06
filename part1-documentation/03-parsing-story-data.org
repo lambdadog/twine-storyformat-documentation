@@ -1,4 +1,4 @@
-#+TITLE:       The Story Data Format
+#+TITLE:       Parsing Story Data
 #+AUTHOR:      Ashlynn Anderson
 #+EMAIL:       ashlynn@pea.sh
 #+DATE:        2020-01-05
