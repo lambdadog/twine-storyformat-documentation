@@ -6,3 +6,77 @@
 
  | Status: | In-Progress |
 
+* Overview
+
+When publishing, Twine publishes the story data (including passages,
+name, tags, CSS, custom javascript, etc) directly into your exported
+HTML file. It does this using the custom HTML elements
+~<tw-storydata>~, ~<tw-tag>~, and ~<tw-passagedata>~ (as well as a
+normal ~<script>~ and ~<style>~ tag, for custom javascript and CSS
+respectively).
+
+This chapter will go over the structure of these custom elements.
+
+* Custom Elements
+
+** ~<tw-storydata>~
+
+*** attributes
+
+ | name            |   |
+ | startnode       |   |
+ | creator         |   |
+ | creator-version |   |
+ | ifid            |   |
+ | zoom            |   |
+ | format          |   |
+ | format-version  |   |
+ | options         |   |
+
+*** content
+
+The ~<tw-storydata>~ element encloses all other published story
+data. This consists of the following sections: 
+
+ - A ~<style>~ element containing the story's custom CSS with the
+   attributes:
+
+   | role | stylesheet            |
+   | id   | twine-user-stylesheet |
+   | type | text/twine-css        |
+
+ - a ~<script>~ element containing the story's custom javascript with
+   the attributes:
+
+   | role | script                |
+   | id   | twine-user-script     |
+   | type | text/twine-javascript |
+
+ - many ~<tw-tag>~ elements, one for each of the story's tags
+ - many ~<tw-passagedata>~ elements, one for each of the story's
+   passages 
+
+** ~<tw-tag>~
+
+*** attributes
+
+ | name  |   |
+ | color |   |
+
+*** content
+
+none
+
+** ~<tw-passagedata>~
+
+*** attributes
+
+ | pid      |   |
+ | name     |   |
+ | tags     |   |
+ | position |   |
+ | size     |   |
+
+*** content
+
+The unmodified text of the passage.
