@@ -29,7 +29,7 @@ of a file, so any contributions are very appreciated.
 * Table of Contents
 
  + Part 1: Documentation
-   1. [[part1-documentation/01-introduction.org][Introduction]]
+   1. [[part1-documentation/01-introduction.org#introduction][Introduction]]
       - [[part1-documentation/01-introduction.org#what-is-twine][What is Twine?]]
       - [[part1-documentation/01-introduction.org#what-is-a-story-format][What is a story format?]]
       - [[part1-documentation/01-introduction.org#what-is-the-difference-between-a-story-format-and-a-proofing-format][What is the difference between a story format and a proofing format?]]
